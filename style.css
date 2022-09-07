@@ -1,0 +1,256 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #E9ECF8;
+}
+
+.logo {
+    width: 940px; 
+    position: relative; 
+    margin: 50px 8%;
+}
+
+
+
+/************************************************************/
+main{
+    width: auto;
+    display: flex;
+}
+
+
+.textin{
+    width: 60%;
+}
+.divtextin{
+    margin: 0;
+    width: 100%;
+}
+.textin_class{
+    margin: 0 0 0 20%;
+    position: relative;
+
+    resize: none;
+    background-color: #E9ECF8;
+    border: 0;
+    /*outline: none;*/
+
+
+    color: #0A3871;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+textarea::placeholder{
+    color: #0A3871;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+/**************************************************************/
+.principalbuttons{
+    width: 100%;
+    margin: 30px 5px;
+}
+
+.divtextadvice{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    height: 18px;
+    margin: 5px 20%;
+}
+.textadvice{
+    width: 400px;
+    height: 18px;
+    margin: 0 0 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.buttons{
+    display:block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 100%;
+    height: 70px;
+    margin: 5px 0 5px 20%;
+}
+.button_encriptar{
+    width: 35%;
+    height: 67px;
+    /* Dark blue/dark-blue-300 */
+    background: #0A3871;
+    border-radius: 24px;
+    /*border: 0;*/
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: white;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    /*font-weight: 400;*/
+    font-size: 20px;
+}
+.button_desencriptar{
+    width: 35%;
+    height: 67px;
+    /* Dark blue/dark-blue-300 */
+    background: #D8DFE8;
+    border-radius: 24px;
+    border-color: #0A3871;
+    /*border: 0;*/
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #0A3871;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+   /* font-weight: 400;*/
+    font-size: 20px;
+}
+
+
+/*****************************************************************/
+.textout{
+    width: 40%;
+}
+
+.divtextout{
+    text-align: center;
+    width: 80%;
+    height: 550px;
+    margin: auto;
+}
+
+.textout_class{
+    resize: none;
+    margin: auto;
+    border-radius: 24px;
+    border-width: 0;
+    background-image: url(Imagenes/lupa.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    color: #0A3871;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    
+}
+
+#textoutspace::placeholder{
+    vertical-align: bottom;
+    text-align:center;
+}
+
+.button_copiar{
+    width: 35%;
+    height: 67px;
+    margin: 23px;
+    background: #D8DFE8;
+    border-radius: 24px;
+    border-color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #0A3871;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/***************************************************************/
+footer{
+    text-align: center;
+    background-color: #CED4DA;
+    padding: 40px;  
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/**********************************************************************/
+
+@media screen and (max-width:480px) {
+
+main{
+    display: block;
+
+}
+
+.logo{
+    width: auto;
+}
+.textin{
+    width: 100%;
+    text-align: center;
+}
+.divtextin{
+    text-align: center;
+}
+
+.textin_class{
+    margin: auto;
+}
+
+.divtextadvice{
+    width: auto;
+    display: inline-flex;
+    margin: auto;
+}
+.textadvice{
+    width: auto;
+}
+.buttons{
+    width: auto;
+    margin: auto;
+}
+
+.button_desencriptar{
+    width: auto;
+}
+.button_encriptar{
+    width: auto;
+}
+.textout{
+    width: 100%;
+    margin: 25px 0 0 0;
+}
+
+.divtextout{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.textout_class{
+    width: 100%;
+}
+
+}
